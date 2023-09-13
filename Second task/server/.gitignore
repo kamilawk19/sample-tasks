@@ -1,0 +1,25 @@
+# Ignore moodledata directory (contains user data, cache, etc.)
+moodledata/
+
+# Ignore log files
+log/
+
+# Ignore cache files
+cache/
+
+# Ignore temporary files and directories
+temp/
+temp_*/
+tmp/
+
+# Ignore user-specific settings
+config.php
+
+# Ignore database dump files
+*.sql
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+.project
+.settings/
